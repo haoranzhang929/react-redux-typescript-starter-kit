@@ -5,7 +5,7 @@ export interface ExampleState {
 }
 
 const initState = {
-  isExample: false,
+  isExample: false
 };
 
 const exampleReducer = (state = initState, action: AnyAction) => {
@@ -13,7 +13,7 @@ const exampleReducer = (state = initState, action: AnyAction) => {
     default:
       return {
         ...state,
-        isExample: true,
+        isExample: true
       };
   }
 };
